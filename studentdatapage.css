@@ -1,0 +1,78 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Ubuntu, sans-serif;
+}
+
+main{
+    background-image: linear-gradient(to bottom, #dfe8ee, #e2ebf0, #e5eef3, #e9f1f5, #ecf4f8, #eff6fa, #f2f7fb, #f5f9fd, #f8fafe, #fbfcfe, #fdfdff, #ffffff);
+
+}
+header{
+    height: 250px;
+}
+.logo-div{
+    /* background-color: orange; */
+    width: 19%;
+    height: 180px;
+    & img{
+        width: 80%;
+        height: 75%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+#authButtons{
+    & button{
+        background-color:transparent;
+        font-size: 16px;
+        font-weight: 800;
+        border: none;
+        background-color: transparent;
+        color: #29425F;
+}
+}
+
+.verify-button{
+    background-color: #198754;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.4s;
+
+}
+
+.failed-button{
+    background-color: #DC3545;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.4s;
+
+}
+
+ .failed-button:hover{
+opacity: 1;
+}
+.verify-button:hover{
+    opacity: 1;
+}
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
